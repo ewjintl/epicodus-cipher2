@@ -1,0 +1,15 @@
+body {
+  padding: 20px;
+  background-color: rgb(22, 22, 22);
+}
+.jumbotron {
+  background-color: darkgray;
+  padding: 20px;
+}
+.well {
+  margin-top: 20px;
+  background-color: darkgray;
+}
+button {
+  margin-top: 20px;
+}
