@@ -19,9 +19,19 @@ function totalReverse(string) {
 $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     var userSentence = $("#userSentence").val();
-    console.log(userSentence);
-    $("#output").text(totalReverse(userSentence));
-
+    $("#output").text(userSentence);
     event.preventDefault();
-  })
-})
+      $("button#firstLastToCap").click(function() {
+        $("#output").text(firstLastToCap(userSentence));
+      });
+      $("button#concatReverse").click(function() {
+        $("#output").text(concatReverse(userSentence));
+      });
+      $("button#concatMiddleChar").click(function() {
+        $("#output").text(concatMiddleChar(userSentence));
+      });
+      $("button#totalReverse").click(function() {
+        $("#output").text(totalReverse(userSentence));
+      });
+  });
+});
