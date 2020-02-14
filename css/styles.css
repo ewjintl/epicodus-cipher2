@@ -1,21 +1,25 @@
 body {
-  padding: 15px;
+  padding: 10px;
   background-color: rgb(22, 22, 22);
 }
 .jumbotron {
   background-color: darkgray;
-  padding: 15px;
+  padding: 10px;
   border-style: ridge;
 }
 .well {
-  font-size: xx-large;
-  margin-top: 15px;
+  /* font-size: xx-large; */
   background-color: darkgray;
 }
 button {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right: 15px;
 }
 .well h1 {
   font-size: larger;
+}
+#output {
+  font-style: italic;
+  font-size: 80px;
+
 }
